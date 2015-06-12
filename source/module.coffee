@@ -1,0 +1,1 @@
+window.Module = require './index'

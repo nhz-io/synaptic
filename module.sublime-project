@@ -1,0 +1,40 @@
+{
+  "folders":
+  [
+    {
+      "path": ".",
+      "folder_exclude_patterns": ["node_modules", "source", "dist", "build"],
+      "file_exclude_patterns": ["*.sublime-*", "gulpfile.js", ".gitignore", ".npmignore", ".travis.yml"],
+      "name": "★ Project"
+    },
+    {
+      "path": "source",
+      "name": "♥ Source"
+    },
+    {
+      "path": "build",
+      "name": "☢ Build"
+    },
+    {
+      "path": "dist",
+      "name": "☯ Dist"
+    }
+  ],
+  "settings":
+  {
+    "tab_size": 2
+  },
+  "build_systems":
+  [
+    {
+      "name": "Gulp UNIX",
+      "working_dir": "$project_path",
+      "cmd": ["gulp"]
+    },
+    {
+      "name": "Gulp WIN",
+      "working_dir": "$project_path",
+      "cmd": ["gulp.cmd"]
+    }
+  ]
+}

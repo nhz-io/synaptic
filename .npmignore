@@ -1,0 +1,14 @@
+node_modules/
+source/
+build/
+.git/
+.gitignore
+.editorconfig
+.travis*
+.npmignore
+History.md
+gulpfile.*
+coffeelint.*
+npm-debug.log
+.coffeelint
+*.sublime-*
