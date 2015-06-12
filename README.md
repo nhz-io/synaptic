@@ -45,6 +45,8 @@ VERSION
 [npm-image]: https://nodei.co/npm/module
 [npm-url]: https://nodei.co/npm/module
 
+[jsperf-url]: http://jsperf.com/module
+
 [dist-browser-js-url]: https://github.com/nhz-io/module.js
 [min-dist-browser-js-url]: https://github.com/nhz-io/module.min.js
 [pack-min-dist-browser-js-url]: https://github.com/nhz-io/module.pack.min.js

@@ -6,6 +6,22 @@
   "scripts": {
     "test": "gulp"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhz-io/module.git"
+  },
+  "keywords": [
+    "nhz.io",
+    "coffee-script",
+    "coffeescript",
+    "coffee"
+  ],
+  "author": "nhz.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhz-io/module/issues"
+  },
+  "homepage": "https://github.com/nhz-io/module",
   "devDependencies": {
     "browserify": "^10.2.1",
     "bundle-collapser": "^1.2.0",
