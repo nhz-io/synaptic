@@ -1,14 +1,15 @@
 {
-  "name": "module",
+  "name": "synaptic",
   "version": "0.0.1",
-  "description": "Module",
+  "description": "Synaptic",
+  "private":true,
   "main": "dist/index.js",
   "scripts": {
     "test": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nhz-io/module.git"
+    "url": "https://github.com/nhz-io/synaptic.git"
   },
   "keywords": [
     "nhz.io",
@@ -19,9 +20,9 @@
   "author": "nhz.io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nhz-io/module/issues"
+    "url": "https://synaptic.nhz.io/issues"
   },
-  "homepage": "https://github.com/nhz-io/module",
+  "homepage": "https://synaptic.nhz.io",
   "devDependencies": {
     "browserify": "^10.2.1",
     "bundle-collapser": "^1.2.0",
@@ -47,7 +48,7 @@
     "build": "./build",
     "dist": "./dist",
     "test": "./build/test",
-    "browserify": "module",
+    "browserify": "synaptic",
     "notest": false
   },
   "dependencies": {
